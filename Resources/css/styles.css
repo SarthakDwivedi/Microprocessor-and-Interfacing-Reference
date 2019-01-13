@@ -5,6 +5,7 @@ body{
     padding: 0;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(rgba(247, 202, 24, 0.705), rgba(15, 15, 15, 0.788));
 }
 
 header{
@@ -22,13 +23,13 @@ header{
     justify-content: center;
 }
 
-h1{
+.hero h1, .hero p{
+    padding: 0 20px;
     color: white;
-}
+  }
 
 p{
     font-size: 24px;
-    color: white;
     font-weight: 300;
-
 }
+  
