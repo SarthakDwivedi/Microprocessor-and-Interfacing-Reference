@@ -1,35 +1,94 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900");
 
-body{
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    background: radial-gradient(rgba(247, 202, 24, 0.705), rgba(15, 15, 15, 0.788));
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(#42a4f5, #ff1745);
+  color: aliceblue;
 }
 
-header{
-    width: 100vw;
-    height: 100vh;
-    background: radial-gradient(rgba(34, 168, 240, 0.726), rgba(220, 47, 35, 0.719)), url("img/mp.jpg") #22A7F0;
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h2 {
+  font-size: 50px;
 }
 
-.hero h1, .hero p{
-    padding: 0 20px;
-    color: white;
-  }
-
-p{
-    font-size: 24px;
-    font-weight: 300;
+header {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+      rgba(34, 168, 240, 0.726),
+      rgba(220, 47, 35, 0.719)
+    ),
+    url("img/mp.jpg") #22a7f0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-  
+
+.hero h1,
+.hero p {
+  padding: 0 20px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 100wh;
+  height: auto;
+}
+
+.chapter_heading {
+  text-align: center;
+  margin: 40px;
+}
+
+.chapter_heading h2 {
+  margin: 0 auto;
+}
+
+.chapter_heading h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background-color: rgb(221, 18, 18);
+  width: 100px;
+  transition: width 0.25s;
+  margin: 10px auto;
+}
+
+.chapters_refrence {
+  border: 1px solid #d50000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  margin: 40px auto;
+  text-align: left;
+  box-shadow: 0 0 10px #d50000;
+}
+
+.chapters_refrence h3 {
+  text-decoration: underline;
+}
+
+.chapters_refrence a {
+  display: block;
+  text-decoration: none;
+  color: azure;
+}
+
+.chapters_refrence p {
+  color: aliceblue;
+}
