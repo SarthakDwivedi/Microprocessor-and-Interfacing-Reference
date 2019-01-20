@@ -1,8 +1,8 @@
 @media only screen and (max-width: 800px) {
   .chapters_refrence {
-    padding: 10px;
-    width: 95%;
-    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    margin: 10px auto;
   }
 
   p {
