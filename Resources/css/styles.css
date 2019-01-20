@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900");
 
+:root {
+  --linear-gradient1:#42a4f5 ;
+  --linear-gradient2: rgba(0, 0, 0, 0);
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -18,8 +24,8 @@ header {
   width: 100vw;
   height: 100vh;
   background: radial-gradient(
-      rgba(34, 168, 240, 0.726),
-      rgba(220, 47, 35, 0.719)
+    rgba(33, 149, 243, 0.829),
+    rgba(233, 30, 98, 0.815)
     ),
     url("img/mp.jpg") #22a7f0;
   background-repeat: no-repeat;
@@ -71,7 +77,7 @@ section {
   content: "";
   display: block;
   height: 4px;
-  background-color: rgb(221, 18, 18);
+  background-color: #2196F3;
   width: 100px;
   -webkit-transition: width 0.25s;
   transition: width 0.25s;
@@ -79,66 +85,16 @@ section {
 }
 
 .chapters_refrence {
-    border-width: 3px;
-    border-style: solid;
-    -o-border-image: 
-      linear-gradient(
-        to bottom, 
-        red, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-       border-image: 
-      -webkit-gradient(
-        linear, 
-        left top, left bottom, 
-        from(red), 
-        to(rgba(0, 0, 0, 0))
-      ) 1 100%;
-       border-image: 
-      linear-gradient(
-        to bottom, 
-        red, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-  padding: 10px;
+  padding: 20px;
   width: 70%;
   margin: 40px auto;
   text-align: left;
   -webkit-box-shadow: inset 5px 5px 10px #42a4f5, 
   inset -5px -5px 10px #ff1745;
-          box-shadow: inset 5px 5px 10px #42a4f5, 
-  inset -5px -5px 10px #ff1745;
+          box-shadow: inset 5px 5px 10px #033a68, 
+  inset -5px -5px 10px #7c051d;
 }
 
-.chapters_refrence:nth-child(6),
-.chapters_refrence:nth-child(5),
-.chapters_refrence:nth-child(4){
-    border-width: 3px;
-    border-style: solid;
-    -o-border-image: 
-      linear-gradient(
-        to bottom, 
-        #42a4f5, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-       border-image: 
-      -webkit-gradient(
-        linear, 
-        left top, left bottom, 
-        from(#42a4f5), 
-        to(rgba(0, 0, 0, 0))
-      ) 1 100%;
-       border-image: 
-      linear-gradient(
-        to bottom, 
-        #42a4f5, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-}
-
-.chapters_refrence h3 {
-  text-decoration: underline;
-}
 
 .chapters_refrence a {
   display: block;

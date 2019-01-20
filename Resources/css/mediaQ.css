@@ -1,11 +1,39 @@
 @media only screen and (max-width: 800px) {
-  .chapters_refrence {
-    padding: 20px;
-    width: 90%;
-    margin: 10px auto;
+
+  body {
+    background: linear-gradient(#dfe3e6, #ece9e9c9);
+    color: rgba(8, 8, 8, 0.726);
   }
 
   p {
     font-size: 16px;
+    color: black;
+  }
+
+  .chapters_refrence p {
+    color: rgb(0, 2, 3);
+  }
+
+  .chapters_refrence {
+    padding: 5px 15px;
+    width: 95%;
+    margin: 40px auto;
+    text-align: left;
+    -webkit-box-shadow: inset 5px 5px 10px #42a4f500, 
+    inset -5px -5px 10px #ff174500;
+            box-shadow: inset 5px 5px 10px #42a4f500, 
+    inset -5px -5px 10px #ff174500;
+    border-width: 3px;
+    border-style: solid;
+   border-image: linear-gradient(
+        to bottom, 
+       var(--linear-gradient1), 
+       var(--linear-gradient2)
+      ) 1 100%;
+  }
+  .chapters_refrence a {
+    display: block;
+    text-decoration: none;
+    color: rgb(5, 156, 156);
   }
 }
