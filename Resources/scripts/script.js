@@ -1,5 +1,5 @@
 let root = document.documentElement;
-setInterval(setRandomColor, 10);
+setInterval(setRandomColor, 1000);
 // setInterval(setRandomColor2, 5000);
 
 
