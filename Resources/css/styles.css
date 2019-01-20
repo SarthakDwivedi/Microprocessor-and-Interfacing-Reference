@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#42a4f5), to(#ff1745));
   background: linear-gradient(#42a4f5, #ff1745);
   color: aliceblue;
 }
@@ -22,14 +23,17 @@ header {
     ),
     url("img/mp.jpg") #22a7f0;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero h1,
@@ -44,8 +48,12 @@ p {
 }
 
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100wh;
   height: auto;
 }
@@ -65,6 +73,7 @@ section {
   height: 4px;
   background-color: rgb(221, 18, 18);
   width: 100px;
+  -webkit-transition: width 0.25s;
   transition: width 0.25s;
   margin: 10px auto;
 }
@@ -72,7 +81,20 @@ section {
 .chapters_refrence {
     border-width: 3px;
     border-style: solid;
-    border-image: 
+    -o-border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+       border-image: 
+      -webkit-gradient(
+        linear, 
+        left top, left bottom, 
+        from(red), 
+        to(rgba(0, 0, 0, 0))
+      ) 1 100%;
+       border-image: 
       linear-gradient(
         to bottom, 
         red, 
@@ -82,7 +104,9 @@ section {
   width: 70%;
   margin: 40px auto;
   text-align: left;
-  box-shadow: inset 5px 5px 10px #42a4f5, 
+  -webkit-box-shadow: inset 5px 5px 10px #42a4f5, 
+  inset -5px -5px 10px #ff1745;
+          box-shadow: inset 5px 5px 10px #42a4f5, 
   inset -5px -5px 10px #ff1745;
 }
 
@@ -91,7 +115,20 @@ section {
 .chapters_refrence:nth-child(4){
     border-width: 3px;
     border-style: solid;
-    border-image: 
+    -o-border-image: 
+      linear-gradient(
+        to bottom, 
+        #42a4f5, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+       border-image: 
+      -webkit-gradient(
+        linear, 
+        left top, left bottom, 
+        from(#42a4f5), 
+        to(rgba(0, 0, 0, 0))
+      ) 1 100%;
+       border-image: 
       linear-gradient(
         to bottom, 
         #42a4f5, 
