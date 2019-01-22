@@ -5,11 +5,11 @@ Following Document aims to provide reference links to useful 8085 Microprocessor
 
 Following document is based on the Electronic and Communication engineering’s GTU syllabus. It aims at providing all the necessary links and tutorial for self-study.
 
-####The document is hosted at: 
+#### The document is hosted at: 
 
 [MPI Reference Document](https://mpi.netlify.com)
 
-#####Alternate Link:
+##### Alternate Link:
 
 [MPI Reference Document](https://sarthakdwivedi.github.io/Microprocessor-and-Interfacing-Reference/)
 
