@@ -1,8 +1,6 @@
 let root = document.documentElement;
 setInterval(setRandomColor, 1000);
-// setInterval(setRandomColor2, 5000);
-
-
+setInterval(setRandomColor2, 3000);
 
 
   function getRandomColor() {
@@ -19,5 +17,6 @@ setInterval(setRandomColor, 1000);
   }
 
   function setRandomColor2() {
-    root.style.setProperty('--linear-gradient2', getRandomColor());
+    root.style.setProperty('--underline_color', getRandomColor());
   }
+ 
